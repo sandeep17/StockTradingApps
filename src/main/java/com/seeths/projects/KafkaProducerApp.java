@@ -1,5 +1,9 @@
 package com.seeths.projects;
 
+/**
+ * Producer code to send trading events
+ */
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.producer.*;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
